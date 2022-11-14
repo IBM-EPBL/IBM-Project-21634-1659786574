@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+{% block body %}
+
+<div class="container text-center p-4">
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 34rem;">
+            <img src="https://st2.depositphotos.com/1001599/6635/v/600/depositphotos_66354355-stock-illustration-business-problems-and-bankruptcy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">You have a LOW / NO chance</h5>
+                <p class="card-text">The model has predicted that you only have <strong>{{content[0]}}%</strong> chance</p>
+                <a href="/home" class="btn btn-primary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

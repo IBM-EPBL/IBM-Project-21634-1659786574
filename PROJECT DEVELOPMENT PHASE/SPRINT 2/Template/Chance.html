@@ -1,0 +1,17 @@
+{% extends 'index.html' %} {% block body %}
+
+<div class="container text-center p-4">
+    <div class="d-flex justify-content-center">
+
+        <div class="card" style="width: 34rem;">
+            <img src="https://img.freepik.com/premium-vector/success-people-cartoon-design_24911-31481.jpg?w=2000" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">You Have Chance</h5>
+                <p class="card-text">The model has predicted that you have <strong>{{content[0]}}%</strong> chance</p>
+                <a href="/home" class="btn btn-primary">Go Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
